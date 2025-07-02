@@ -1,7 +1,7 @@
 import express, { Request, Response } from 'express';
 import path from 'path';
 // 生成した Prisma Client をインポートする
-import { PrismaClient } from './generated/prisma/client';
+import { PrismaClient } from '../generated/prisma/client';
 
 const prisma = new PrismaClient({
   log: ['query'],
