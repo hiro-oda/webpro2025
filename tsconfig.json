@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "es2016",
+    "module": "commonjs",
+    "outDir": "./dist", // コンパイル後のファイルの出力先を 'dist' フォルダに指定
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true
+  },
+  "include": [
+    "src/**/*" // コンパイルの対象を 'src' フォルダ内の全ファイルに指定
+  ]
+}
