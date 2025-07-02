@@ -14,7 +14,9 @@ datasource db {
   url      = env("DATABASE_URL")
 }
 
-model User {
-  id    Int     @id @default(autoincrement())
-  name  String
+model StockPrice {
+  id           Int      @id @default(autoincrement())
+  tickerSymbol String   // 銘柄シンボル (e.g., "GAME", "TECH")
+  date         DateTime @db.Date // 日付
+  price        Float    // 終値
 }

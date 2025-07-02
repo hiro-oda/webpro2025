@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "tsx index.ts",
+    "build": "tsc",
+    "start": "node ./index.js",
     "db:dev": "prisma dev"
+  },
+  "prisma": {
+  "seed": "node prisma/seed.js"
   },
   "keywords": [],
   "author": "",

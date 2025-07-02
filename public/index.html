@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株価予測チャレンジ</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <h1>株価予測チャレンジ</h1>
+
+  <div class="container">
+    <div class="chart-container">
+      <canvas id="stockChart"></canvas>
+    </div>
+
+    <div class="control-panel">
+      <p id="instruction">次の日の株価を予測してください:</p>
+      <div id="resultArea"></div>
+      <input type="number" id="predictionInput" placeholder="予測値を入力">
+      <button id="predictButton">予測する</button>
+      <button id="nextButton" class="hidden">次の問題へ</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
