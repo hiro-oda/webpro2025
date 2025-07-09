@@ -10,7 +10,7 @@
     "db:dev": "prisma dev"
   },
   "prisma": {
-  "seed": "node prisma/seed.js"
+    "seed": "node prisma/seed.js"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +23,7 @@
     "tsx": "^4.20.3"
   },
   "devDependencies": {
+    "@types/express": "^5.0.3",
     "@types/node": "^24.0.4",
     "typescript": "^5.8.3"
   }
