@@ -126,7 +126,6 @@ app.listen(PORT, () => {
 //   res.redirect('/');
 // });
 
-// // サーバーを起動する
 // app.listen(PORT, () => {
 //   console.log(`Server is running on http://localhost:${PORT}`);
 // });
